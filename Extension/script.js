@@ -623,7 +623,7 @@ if (isGame === true) {
 
             if (settingsObject.detectPrevKB === true) {
                setTimeout(function () {
-                  let previousKBdetected = document.getElementById('KeyboardO');
+                  let previousKBdetected = document.getElementById('Keyboard1');
                   if (previousKBdetected) {
                      let shadowHost = document.getElementById('shadowHostId')
                      let shadowDom = shadowHost.shadowRoot;
